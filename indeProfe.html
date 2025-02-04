@@ -6,16 +6,16 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
-<body class="bg-gray-300">
+<body class="bg-gray-100">
     
     <section class="bg-blue-600 text-white py-6 text-center" >
-        <div class="">
+        <div class="container mx-auto ">
             <h1 class="text-4xl font-bold mb-2">Descubre el Mundo de los Juegos de Mesa</h1>
             <p class="text-lg">Diversion para todas las edades</p>
         </div>
     </section>
 
-    <section class="container p-10 m-auto">
+    <section class="container p-10 mx-auto">
         <div class="grid md:grid-cols-3 gap-6 ">
           <!-- Card 1 -->
           <div class="bg-white rounded-xl shadow-xl text-center p-6">
@@ -38,11 +38,29 @@
             <p class="text-gray-700">Pon a prueba tu mente con desafiantes juegos estratégicos.</p>
           </div>
         </div>
-      </section>
+    </section>
 
 
-    <footer>
+    <section class="container mx-auto py-12 px-6 flex items-center flex-col md:flex-row gap-6">
+        <img src="./img/magic.webp" alt="" class="w-full md:w-1/2 rounded-xl ">
+        <div class="text-center md:text-left">
+            <h2 class="text-3xl font-bold">Diversión para Toda la Familia</h2>
+            <p class="my-6 text-gray-700">Descubre juegos de mesa ideales para compartir momentos inolvidables con amigos y familia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quos deleniti magnam unde magni amet dolorum quisquam labore dolores laborum.</p>
+            <button class="bg-blue-500 rounded-xl text-white p-3 hover:bg-blue-600">Descubrir más</button>
+        </div>
+    </section>
 
-    </footer>
+    <section class=" text-center text-white bg-blue-500 py-12 ">
+                    
+        <h2 class="text-3xl font-bold ">Únete a Nuestra Comunidad</h2>
+        <p class="text-lg my-6">Recibe noticias, recomendaciones y ofertas exclusivas.</p>  
+            
+        <form class="flex justify-center">
+            <input type="email" name="email" placeholder="Tu correo electrónico" class="bg-white text-gray-700 rounded-l-xl p-3 w-1/3 ">
+            <button type="submit" class="bg-yellow-500 rounded-r-xl px-3 hover:bg-yellow-600 hover:text-black cursor-pointer">Suscribirse</button>
+        </form>
+    
+    </section>
+
 </body>
 </html>
